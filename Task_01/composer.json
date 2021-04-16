@@ -1,0 +1,23 @@
+{
+    "name": "anton/task01",
+    "authors": [
+        {
+      	    "name": "Anton Loginov",
+      	    "email": "antonlogin32@gmail.com"
+   	}
+    ],
+    "type": "project",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
